@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-native-modules",
+  "version": "0.0.0",
+  "main": "index.js",
+  "gypfile": true,
+  "author": "Miguel González <migpalg@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "node-gyp rebuild",
+    "clean": "node-gyp clean"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.23",
+    "node-gyp": "^9.0.0"
+  },
+  "dependencies": {
+    "node-addon-api": "^4.3.0"
+  }
+}
